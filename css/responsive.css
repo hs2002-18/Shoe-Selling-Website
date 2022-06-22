@@ -1,0 +1,82 @@
+@media only screen and (max-width:450px){
+    /* body{
+        background: #000;
+    } */
+ .card{
+     width: 40vw;
+     height: 32vw;
+ }
+ .card-item{
+     font-size: 1.7vw;
+     
+ }
+ .cards{
+     /* width: 40vw; */
+     /* height: 15vw; */
+     display: flex;
+     /* width: 100vw; */
+ }
+ .m3{
+     display: inline;
+     font-size: xx-small;
+ }
+ .m2{
+     font-size: xx-small;
+     /* margin-left: 0.3vw; */
+     padding-left: 16vw;
+ }
+ .signIn{
+     /* size: 1vw; */
+     font-size: xx-small;
+     margin-top: 1.5vw;
+ }
+ p{
+     font-size: 3vw;
+ }
+ .shoes{
+     /* padding-right: 12vw; */
+     margin-right: 7vw;
+     width: 35vw;
+     height: 40vw;
+ }
+ .shoes img{
+     width: 25vw;
+     padding-left: 4vw;
+ }
+ h2{
+     padding-top: 0vw;
+     /* font-size: xx-small; */
+     font-size: xx-small;
+ }
+ .shoes span{
+     margin-top: 0vw; 
+ }
+ .price{
+     font-size: 2vw;
+     margin-top: 0vw;
+ }
+ .tax{
+    font-size: 1.6vw;
+
+ }
+ .buy{
+     font-size: 1vw;
+ }
+ .info{
+     margin-top: 4vw;
+ }
+ .info ul li{
+     font-size: 3vw;
+ }
+}
+@media only screen and (max-width: 1300px){
+    .m2{
+        /* font-size: xx-small; */
+        /* margin-left: 0.3vw; */
+        padding-left: 17vw;
+    }
+    .buy a{
+        font-size: 1.5vw;
+        margin-top: 0vw;
+    }
+}

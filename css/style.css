@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(81, 144, 111);
+}
+.container1 {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 4.76vw;
+}
+h1 {
+  font-size: 1.78vw;
+  margin-top: 0.89vw;
+  margin-left: px;
+}
+.container2 {
+  display: inline;
+}
+.card {
+  background-color: white;
+  /* display: inline; */
+  /* border: 2px solid black; */
+  width: 29.7vw;
+  height: 23.9vw;
+  /* display: flex; */
+  padding: 0.29vw;
+  margin-left: 7.14vw;
+  margin-top: 1.78vw;
+  /* margin: 20px; */
+  /* margin-left: 15px; */
+  /* align-content: flex-start; */
+}
+.cards {
+  display: flex;
+  margin-left: 0.71vw;
+  /* width: 100px; */
+}
+.card-item {
+  margin: 0.17vw;
+  display: inline-flex;
+  width: 8.92vw;
+  height: 5.95vw;
+  /* flex-direction: column; */
+  border: 1px solid gray;
+  font-size: large;
+  border-radius: 0.17vw;
+  justify-content: center;
+  align-items: center;
+  /* box-sizing: content-box; */
+}
+.signIn {
+  display: flex;
+  background: #000;
+  justify-content: center;
+  align-content: center;
+  border-radius: 0.83vw;
+  margin: 0.47vw;
+  padding: 0.47vw;
+}
+.signIn a {
+  color: white;
+  text-decoration: none;
+}
+.signIn a:hover {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+/* .shoes{
+    display: inline;
+    margin-left: 70%;
+    
+} */
+/* .shoes img{
+    /* float: inline-st; */
+
+.shoes {
+  /* width: 100%; */
+  width: 29.7vw;
+  height: 35.7vw;
+  display: inline;
+  float: right;
+  margin-right: 17.85vw;
+  /* margin-right: 20%; */
+  background-color: white;
+}
+.shoes img {
+  /* float: ; */
+  /* margin-top: 100px; */
+  margin-top: 2.38vw;
+  /* padding-right: 2px; */
+  padding-left: 1.78vw;
+  width: 23.8vw;
+  height: 17.85vw;
+  /* margin-left: 20px;
+    margin-right: 20px; */
+  /* width: 451px;
+    height: 411px; */
+  /* margin-right: 90%mar; */
+  /* margin-right: 0%; */
+  /* margin-bottom: 50% */
+}
+.buy {
+  background-color: rgb(81, 144, 111);
+  padding-top: 0.47vw;
+  /* margin-top: 1.19vw; */
+  margin-left: 19.6vw;
+  text-align: center;
+  width: 7.73vw;
+  height: 2.38vw;
+}
+.buy a {
+  color: #000;
+  text-decoration: none;
+  /* text-align: center; */
+  font-size: 1.78vw;
+  /* margin-top: 1000px; */
+  /* padding-top: 1000px; */
+}
+.buy a:hover {
+  color: #000;
+  font-weight: bold;
+}
